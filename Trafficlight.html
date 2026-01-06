@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Traffic light</title>
+
+<style>
+    .trafficlight{
+        padding: top 70px;;
+        width: 200px;
+        height: 400px;
+        background-color: black;
+
+
+
+
+    }
+
+    .circle{
+        border-radius: 50%;
+        margin: 10px auto;
+
+    }
+
+    .Go{
+        opacity: 0.1;
+        background-color: green;
+        height: 120px;
+        width: 120px;
+        margin-top: 10px;
+        animation-iteration-count: 1;
+        animation-duration:2s;
+        animation-name: Go;
+
+
+    }
+    
+    .stop{
+
+        opacity: 0.1;
+        animation-delay: 2.5s;
+        background-color: rgb(255, 0, 0);
+        height: 120px;
+        width: 120px;
+        top: 110px;
+        animation-iteration-count: 1;
+        animation-duration:2s;
+        animation-name: Stop;
+    }
+
+    .slow{
+        opacity: 0.1;
+        animation-delay: 4.5s;
+        background-color: yellow;
+        height: 120px;
+        width: 120px;
+        top: 220px;
+        animation-iteration-count: 1;
+        animation-duration:2s;
+        animation-name: Slow;
+    }
+
+    @keyframes Go{
+
+        0%{opacity: 0%;}
+        25%{opacity: 25%;}
+        50%{opacity: 50%;}
+        75%{opacity: 75%;}
+        100%{opacity: 100%;}
+    }
+
+        @keyframes Stop{
+
+        0%{opacity: 0%;}
+        25%{opacity: 25%;}
+        50%{opacity: 50%;}
+        75%{opacity: 75%;}
+        100%{opacity: 100%;}
+    }
+
+        @keyframes Slow{
+        0%{opacity: 0%;}
+        25%{opacity: 25%;}
+        50%{opacity: 50%;}
+        75%{opacity: 75%;}
+        100%{opacity: 100%;}
+    }
+
+</style>
+
+</head>
+
+
+<body>
+
+    <div class="trafficlight">
+
+
+
+<div class="Go circle"></div>
+<div class="stop circle" ></div>
+<div class="slow circle" ></div>
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
