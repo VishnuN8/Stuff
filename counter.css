@@ -1,0 +1,27 @@
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 8em;
+    font-family: monospace;
+
+}
+
+.container{
+    text-align: center;
+
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+    background-color: cadetblue;
+    border-radius: 5px;
+
+
+}
+.button:hover{
+
+    background-color: rgb(35, 31, 177);
+
+}
