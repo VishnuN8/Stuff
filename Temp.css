@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Class{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 80px;
+    padding: 40px;
+    border-radius: 25px;
+    border-color: rgb(255, 0, 0);
+    font-family: monospace;
+    color: rgb(255, 102, 19);
+    box-shadow: 6px 7px 4px rgb(0, 0, 0) ;
+    
+
+
+    }
+
+    .Class:hover{
+        background-color: rgb(255, 186, 108);
+        padding: 50px;
+        transition: ease-in-out 1s;
+        box-shadow: 10px 11px 4px rgb(0, 0, 0) ;
+        font-size:40px ;
+    }
+
